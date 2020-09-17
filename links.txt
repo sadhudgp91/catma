@@ -1,0 +1,17 @@
+https://www.predictiveanalyticstoday.com/top-free-software-for-text-analysis-text-mining-text-analytics/
+
+https://github.com/GSA/MD-Automated-Text-Analysis
+
+https://weblicht.sfs.uni-tuebingen.de/weblicht/
+
+https://github.com/mpetris/catma
+
+https://app.catma.de/catma/
+
+https://github.com/redewiedergabe/tagger
+
+https://monkeylearn.com/text-analysis/
+
+https://github.com/eellak/nlpbuddy
+
+https://github.com/doccano/doccano
