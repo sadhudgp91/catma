@@ -35,4 +35,4 @@ for line in lines:
     entry = dict(zip(columns, values))
     data.append(entry)
 with open('Output_tokens.json', 'w') as outfile:
-    json.dump(data, outfile)
+    json.dump(data, outfile, indent=4, sort_keys = False)
