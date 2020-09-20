@@ -20,7 +20,7 @@ dst = '/tmp/data.json'
 
 # data input output
 
-data=[{}]
+data=[]
 filename = sys.argv[1]
 with open(filename,'r+') as f:
     content = f.read()
