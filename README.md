@@ -1,4 +1,4 @@
-# catma
+# CATMA Intro
 Tagger output files for annotation purpose
 
 Introduction
@@ -10,7 +10,7 @@ It also allows the project-centric management of text corpora, annotation collec
 
 CATMA uses a Gitlab instance as its backend to store and manage the project's resources and team. All resources are versioned and available through either the CATMA web interface or the Gitlab REST API.
 
-#CATMA-X
+# CATMA-X Workflow
 
 **CATMA-X** is an advanced annotation tool which can convert plain utf-8 text files to
 annotated JSON files for importing to CATMA application for further analysis. The tool
