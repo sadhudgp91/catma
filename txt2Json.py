@@ -22,9 +22,10 @@ dst = '/tmp/data.json'
 
 data=[{}]
 filename = sys.argv[1]
-with open(filename,"a") as f:
+with open(filename,'r+') as f:
+    content = f.read()
     f.seek(0, 0)
-    f.write("token"+'\t'+"sentstart")
+    f.write("token"+'\t'+"sentstart"+ '\n' + content)
 with open(filename,"r") as f:
     firstline = f.readline()    
     columns = firstline.split()
