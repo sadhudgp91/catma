@@ -19,3 +19,10 @@ direct and indirect speech is possible through this tool. Color coding and autom
 text annotation can be done through this tool with state of the art NLP technologies.
 Through trained models in german and english, the tool can analyse texts for
 annotation.
+
+Some key features of this tool are:
+- Direct and Indirect speech annotation
+- Tokenize sentence start and end indices
+- Import output JSON files to CATMA
+
+More on the way!!
