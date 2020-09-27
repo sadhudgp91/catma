@@ -21,7 +21,7 @@ dst = '/tmp/data.json'
 
 # data input output
 
-data=[{}]
+data=[]
 filename = sys.argv[1]
 with open(filename,"r") as f:
     firstline = f.readline()
@@ -32,4 +32,4 @@ for line in lines:
     entry = dict(zip(columns, values))
     data.append(entry)
 with open('output_TSV2JSON.json', 'w') as outfile:
-    json.dump(data, outfile)
+    json.dump(data, outfile, indent=4, sort_keys = False) 
