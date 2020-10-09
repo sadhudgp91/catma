@@ -19,7 +19,6 @@ import nltk.data
 from nltk.tokenize import word_tokenize
 from nltk.tokenize.punkt import PunktSentenceTokenizer
 from nltk.tokenize import TreebankWordTokenizer as twt
-import tokenizations
 import numpy as np
 
 
